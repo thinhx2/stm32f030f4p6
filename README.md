@@ -13,3 +13,16 @@ Rất mong các bác có giải pháp tiết kiệm bộ nhớ trên các IDE kh
 Khuyến khích mua BluePill STM32F103C8T6 giá chỉ khoảng 36k được bán bởi các shop Trung Quốc hoặc board STM32F030K6T6 giá 30k với bộ nhớ flash 32kb-gấp đôi 16kb trên bản F030F4P6 được phát triển bởi AEShop th
 
 1 số hình ảnh tham khảo :
+
+- Mặc định : enabled Generic Serial, optimize Smallest : sketch sử dụng 9620 byte
+<img align="top" width=80% src="IMG_20201113_021052.jpg" />
+
+- Disabled Generic Serial, optimize Smallest: sketch sử dụng 7084 byte
+
+<img align="top" width=80% src="IMG_20201113_021143.jpg" />
+
+- enabled Generic Serial, optimize Smallest with LTO : sketch sử dụng 7336 byte
+<img align="top" width=80% src="IMG_20201113_021309.jpg" />
+
+-enabled no Generic Serial và disabled Generic Serial, optimize Smallest with LTO : sketch sử dụng 3808 byte
+<img align="top" width=80% src="IMG_20201113_024521.jpg" />
