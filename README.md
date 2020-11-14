@@ -17,6 +17,9 @@ Khuyến khích mua BluePill STM32F103C8T6 giá chỉ khoảng 36k được bán
 - Mặc định : enabled Generic Serial, optimize Smallest : sketch sử dụng 9620 byte
 <img align="top" width=80% src="IMG_20201113_021052.jpg" />
 
+enabled no Generic Serial, optimize Smallest : sketch sử dụng 8360 byte
+<img align="top" width=80% src="IMG_20201114_223416.jpg" />
+
 - Disabled Generic Serial, optimize Smallest: sketch sử dụng 7084 byte
 
 <img align="top" width=80% src="IMG_20201113_021143.jpg" />
